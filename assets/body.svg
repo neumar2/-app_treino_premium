@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 400">
+  <!-- Estilos e Sombras Básicas -->
+  <defs>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Cabeça -->
+  <path id="head" fill="#2d3748" stroke="#cbd5e0" stroke-width="2" d="M100 20 C85 20, 85 50, 100 50 C115 50, 115 20, 100 20 Z"/>
+  
+  <!-- Pescoço -->
+  <path id="neck" fill="#2d3748" stroke="#cbd5e0" stroke-width="2" d="M95 50 L105 50 L105 60 L95 60 Z"/>
+
+  <!-- Peitoral (Chest) -->
+  <path id="chest" fill="#2d3748" stroke="#cbd5e0" stroke-width="2" d="M70 60 Q100 70 130 60 L120 100 Q100 110 80 100 Z"/>
+
+  <!-- Abdômen (Abs) -->
+  <path id="abs" fill="#2d3748" stroke="#cbd5e0" stroke-width="2" d="M80 100 Q100 110 120 100 L115 150 Q100 160 85 150 Z"/>
+
+  <!-- Braço Esquerdo (Left Arm - Biceps/Triceps) -->
+  <path id="arm_left" fill="#2d3748" stroke="#cbd5e0" stroke-width="2" d="M70 60 Q50 80 60 120 L75 110 Q70 80 70 60 Z"/>
+
+  <!-- Antebraço Esquerdo (Left Forearm) -->
+  <path id="forearm_left" fill="#2d3748" stroke="#cbd5e0" stroke-width="2" d="M60 120 Q50 160 45 180 L55 180 Q65 140 75 110 Z"/>
+
+  <!-- Braço Direito (Right Arm - Biceps/Triceps) -->
+  <path id="arm_right" fill="#2d3748" stroke="#cbd5e0" stroke-width="2" d="M130 60 Q150 80 140 120 L125 110 Q130 80 130 60 Z"/>
+
+  <!-- Antebraço Direito (Right Forearm) -->
+  <path id="forearm_right" fill="#2d3748" stroke="#cbd5e0" stroke-width="2" d="M140 120 Q150 160 155 180 L145 180 Q135 140 125 110 Z"/>
+
+  <!-- Perna Esquerda (Left Leg - Quads) -->
+  <path id="leg_left" fill="#2d3748" stroke="#cbd5e0" stroke-width="2" d="M85 150 Q70 220 80 270 L95 260 Q95 200 100 155 Z"/>
+
+  <!-- Panturrilha Esquerda (Left Calf) -->
+  <path id="calf_left" fill="#2d3748" stroke="#cbd5e0" stroke-width="2" d="M80 270 Q75 320 80 350 L95 350 Q100 300 95 260 Z"/>
+
+  <!-- Perna Direita (Right Leg - Quads) -->
+  <path id="leg_right" fill="#2d3748" stroke="#cbd5e0" stroke-width="2" d="M115 150 Q130 220 120 270 L105 260 Q105 200 100 155 Z"/>
+
+  <!-- Panturrilha Direita (Right Calf) -->
+  <path id="calf_right" fill="#2d3748" stroke="#cbd5e0" stroke-width="2" d="M120 270 Q125 320 120 350 L105 350 Q100 300 105 260 Z"/>
+</svg>
